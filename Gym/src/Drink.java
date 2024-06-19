@@ -1,4 +1,4 @@
-public class Drink extends registerBase{
+public class Drink extends registerBase {
     public String nameDrink;
     public float mlDrink;
     public int amount;
@@ -10,10 +10,10 @@ public class Drink extends registerBase{
         this.amount = 1;
     }
 
-    public void registerDrink(String nameDrink, float mlDrink, int amount){
-        registerDrink(nameDrink, mlDrink, amount);
+    public void registerDrink(String nameDrink, float mlDrink, int amount) {
+        registerItemF(nameDrink, mlDrink, amount);
     }
-    
+
     public String getNameDrink() {
         return nameDrink;
     }
@@ -38,5 +38,4 @@ public class Drink extends registerBase{
         this.amount = amount;
     }
 
-    
 }
